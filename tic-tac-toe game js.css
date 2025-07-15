@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-color: #548687;
+   text-align: center;
+}
+.container{
+    height: 70vh; /*aplyala kiti % part pahije Sacreen mdala disply hoila tya sati vh use karatat */
+    display: flex;
+    justify-content: center; /* ya mule atta screen chya center la aala karan ha main div ahe*/
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.game{
+    height: 60vmin; /* ha class cantainer class chtya aat ahe mg var 70% ghetal tyatal kiti use karyach tya sati vmin use kartat*/
+    width: 60vmin;;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /*screen chya ny jya div made ha div ahe mhanje container chya center la yenar*/
+    align-items: center;
+    gap: 1.5vmin; /* box madalya gap sati use klelay*/
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin; /* same var sarkhch ahe box game chya aata ahe  mg tya 60% madala kiti use karaych tya sati use kel*/
+    border-radius: 1rem; /* yachya ani saglyachya jagi px pn dil tari chalel hight wight chya pn sagalya*/
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg{
+    color: #ffffc7;
+    font-size: 8vmin;
+}
+
+.msg-container{
+    height: 30vmin;
+}
+.hide{
+    display: none;
+}
